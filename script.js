@@ -75,7 +75,7 @@ function updateScore() {
         startWorkNotificationInterval();
     }    
     
-    if (popupCloseCount === 30) {
+    if (popupCloseCount === 35) {
         showExitLink();
         setTimeout(showWorkNotification, 1000);
         clearInterval(workNotificationInterval);
